@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+  --primary-color: rgb(88, 175, 139);
+  --primary-color-darker: rgb(52, 102, 81);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.tituloAtividade {
+  text-align: center;
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+  transition: all 200ms;
+}
+
+#resultado {
+  text-align: center;
+}
+
+.inputText {
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#enviar {
+  width: 40%;
+}
+
+#novaTask {
+  width: 55%;
+}
+
+.tasks {
+  max-width: 100%;
+}
+
+.tasks {
+  max-width: 100%;
+}
+
+.task-text {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
